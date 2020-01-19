@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
     char str[7];
     int cnt=0;
     unsigned int seed,max,num;
-    unsigned int x;
+    unsigned long x;
     
     while(fgets(str, sizeof(str), stdin)){
         if(cnt==0)

@@ -3,8 +3,8 @@
 int main(int argc, char *argv[]) 
 {
     char str[7];
-    int seed,max,num;
-    int x;
+    unsigned int seed,max,num;
+    unsigned int x;
     
     while(fgets(str, sizeof(str), stdin)){
         for(int i=0;i<3;i++){

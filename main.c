@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     }
     x=seed;
     for(int i=0;i<num;i++){
-       x=(48271*x) mod (2147483647 - 1);
+       x=(48271*x)%(2147483647 - 1);
        x=x/((2147483647+max-1)/max)+1;
        printf("%d\n",x);
     }

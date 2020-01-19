@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
         printf("XXX_%d_XXX\n",max);
         printf("SSS_%d_SSS\n",seed);
         //printf("%s", str);
-    }
     x=seed;
     for(int i=0;i<num;i++){
        x=(48271*x)%(2147483647 - 1);

@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
             if(i==2)
                 num=atoi(str);
         }
-        printf("%s", str);
+        //printf("%s", str);
     }
     x=seed;
     for(int i=0;i<num;i++){

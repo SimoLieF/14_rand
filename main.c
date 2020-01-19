@@ -4,6 +4,7 @@ int main(int argc, char *argv[])
 {
     char str[7];
     int seed,max,num;
+    int x;
     
     while(fgets(str, sizeof(str), stdin)){
         for(int i=0;i<3;i++){
@@ -19,7 +20,7 @@ int main(int argc, char *argv[])
     x=seed;
     for(int i=0;i<num;i++){
        x=(48271*x) mod (2147483647 - 1);
-       x=x/((2147483647+max-1)/max)+1
+       x=x/((2147483647+max-1)/max)+1;
        printf("%d\n",x);
     }
 

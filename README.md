@@ -16,7 +16,7 @@
 
 # テスト結果
 
-[![Build Status](https://travis-ci.com/t-kougei-game-comp-2019/14_rand.svg?branch=master)](https://travis-ci.com/t-kougei-game-comp-2019/14_rand)
+[![Build Status](https://travis-ci.com/SimoLieF/14_rand.svg?branch=master)](https://travis-ci.com/SimoLieF/14_rand)
 
 # 今回の問題
 
